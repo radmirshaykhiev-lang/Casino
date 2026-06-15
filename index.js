@@ -11,6 +11,8 @@ function smeshnueKartinkiSmotretOnlainBezRegistrachii(){
 }
 
 function watchAdd(){
+    money = money + 100;
+    document.getElementById("balance").textContent = "Баланс: " + money + " " + ArkashaDengi;
     window.open("https://lexa-sosun.github.io/arkadiy/adv/")
 }
 
@@ -53,5 +55,7 @@ function play() {
     document.getElementById("balance").textContent = "Баланс: " + money + " " + ArkashaDengi;
 }
 function re(){
-    location.reload()
+    money = 10
+     document.getElementById("balance").textContent = "Баланс: " + money + " " + ArkashaDengi;
+
 }
