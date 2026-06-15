@@ -1,0 +1,11 @@
+.idinaxyifoto{
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  border: 5px solid rgba(20, 20, 20, 1);
+  border-radius: 10px;
+}
+
+body{
+    background-color:rgba(83, 81, 81, 0.855) ;
+}
