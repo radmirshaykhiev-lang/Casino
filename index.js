@@ -13,7 +13,7 @@ function smeshnueKartinkiSmotretOnlainBezRegistrachii(){
 
 function f67(){
     for(i = 0; i<=67; i++){
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+        window.open("mango.html", "_blank");
     }
 }
 
